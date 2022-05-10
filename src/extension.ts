@@ -53,7 +53,7 @@ export function activate(context: vscode.ExtensionContext) {
 		});
 
 		if (currentFileDiffed) {
-			vscode.window.showInformationMessage('This file has unstaged git changes. You can\'t copy a link to it until you\'ve committed your changes to the remote.');
+			vscode.window.showInformationMessage('This file has uncommitted git changes. You can\'t copy a link to it until you\'ve committed your changes to the remote.');
 			return;
 		}
 
