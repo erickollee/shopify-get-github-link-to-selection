@@ -1,7 +1,6 @@
 ## Features
 
-Can copy a link to a section of text on GitHub.
-
+Use `cmd + shift + c` or `ctrl + shift + c` while selecting lines of code to create a link to the selection on GitHub, on your clipboard.
 ## Requirements
 
 Your code needs to be checked out from a GitHub repository and the current file must not have any uncommitted changes.
@@ -11,10 +10,8 @@ Your code needs to be checked out from a GitHub repository and the current file 
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release
+Initial beta release
 
 **Enjoy!**
